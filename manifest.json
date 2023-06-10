@@ -1,0 +1,21 @@
+{
+  "vendor": "blacksipqa",
+  "name": "event-cards",
+  "version": "0.0.1",
+  "title": "",
+  "defaultLocale": "es",
+  "description": "",
+  "builders": {
+    "react": "3.x",
+    "store": "0.x",
+    "docs": "0.x"
+  },
+  "mustUpdateAt": "2021-01-12",
+  "scripts": {
+    "prereleasy": "bash lint.sh"
+  },
+  "dependencies": {
+    "vtex.css-handles": "0.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

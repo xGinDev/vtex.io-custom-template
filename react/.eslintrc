@@ -1,0 +1,58 @@
+{
+  "rules": {
+    "react/jsx-filename-extension": "off",
+    "react/prop-types": 0,
+    "react/jsx-indent": [
+      2,
+      4
+    ],
+    "react/jsx-indent-props": [
+      2,
+      4
+    ],
+    "indent": "off",
+    "@typescript-eslint/indent": [
+      2,
+      4
+    ],
+    "prettier/prettier": 0,
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "no-plusplus": [
+      "error",
+      {
+        "allowForLoopAfterthoughts": true
+      }
+    ],
+    "lines-around-comment": [
+      "error",
+      {
+        "allowBlockStart": true,
+        "beforeBlockComment": true
+      }
+    ]
+  },
+  "extends": [
+    "vtex-react",
+    "airbnb-typescript"
+  ],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "overrides": [
+    {
+      "files": [
+        "*.js",
+        "*.jsx"
+      ],
+      "parser": "babel-eslint",
+      "parserOptions": {
+        "sourceType": "module"
+      }
+    }
+  ]
+}

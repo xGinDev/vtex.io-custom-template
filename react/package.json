@@ -1,0 +1,64 @@
+{
+  "private": true,
+  "scripts": {
+    "pretest": "yarn",
+    "test": "vtex-test-tools test"
+  },
+  "dependencies": {
+    "@vtex/css-handles": "^1.1.3",
+    "@vtex/insane": "^2.8.0",
+    "apollo-client": "^2.5.1",
+    "axios": "^0.21.0",
+    "classnames": "^2.2.5",
+    "debounce": "^1.2.0",
+    "downshift": "^3.2.10",
+    "graphql": "~0.13.2",
+    "graphql-tag": "~2.8.0",
+    "hoist-non-react-statics": "^3.3.0",
+    "prop-types": "^15.6.2",
+    "ramda": "^0.25.0",
+    "react": "^16.3.2",
+    "react-amphtml": "^4.0.1",
+    "react-apollo": "3.1.3",
+    "react-content-loader": "^3.1.2",
+    "react-countdown-circle-timer": "^3.0.8",
+    "react-dom": "^16.8.3",
+    "react-html-parser": "^2.0.2",
+    "react-icons": "^4.9.0",
+    "react-intl": "^3.12.1",
+    "react-resize-detector": "^3.0.1",
+    "react-share": "^4.2.1",
+    "react-slick": "^0.23.1",
+    "react-transition-group": "^4.3.0",
+    "recompose": "^0.30.0",
+    "slick-carousel": "^1.8.1",
+    "slugify": "^1.3.4",
+    "swiper": "6.2.0"
+  },
+  "devDependencies": {
+    "@apollo/react-testing": "3.1.3",
+    "@types/classnames": "^2.2.9",
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.5",
+    "@types/ramda": "^0.26.18",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "@vtex/test-tools": "^3.1.0",
+    "@vtex/tsconfig": "^0.3.0",
+    "apollo-cache-inmemory": "^1.4.3",
+    "apollo-client": "^2.5.1",
+    "babel-eslint": "^10.1.0",
+    "blacksipqa.event-cards": "https://operacion--flexicolombia.myvtex.com/_v/private/typings/linked/v1/blacksipqa.event-cards@0.0.1+build1685914386/public/@types/blacksipqa.event-cards",
+    "typescript": "3.9.7",
+    "vtex.css-handles": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles",
+    "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime"
+  },
+  "vtexTestTools": {
+    "defaultLocale": "en"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "./setupTests.js"
+    ]
+  }
+}
