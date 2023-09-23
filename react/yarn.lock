@@ -2067,10 +2067,6 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
-"blacksipqa.event-cards@https://operacion--flexicolombia.myvtex.com/_v/private/typings/linked/v1/blacksipqa.event-cards@0.0.1+build1685914386/public/@types/blacksipqa.event-cards":
-  version "0.0.1"
-  resolved "https://operacion--flexicolombia.myvtex.com/_v/private/typings/linked/v1/blacksipqa.event-cards@0.0.1+build1685914386/public/@types/blacksipqa.event-cards#546373eca2216b8ce080e60a388d459f8ee262b0"
-
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz"
@@ -5632,10 +5628,9 @@ verror@1.10.0:
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles"
   integrity sha512-QHSMD4rq2nKtJ1f1tH/RPqj4cYu2gKdghYHBdJSYzGh0e7AGD8ByCPzSdHyVnlO2OIRKAAqPHI05baN6neLYFg==
 
-"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime":
-  version "8.132.4"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime"
-  integrity sha512-qYiGKi/h+KtqcH8ijJDdx6ba5sYeP/+QBk8uJcNci/Sc9+wVoBdrm9wXvUPaqPg24FbysfyuoFTogJ+9Q1OLgQ==
+"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.1/public/@types/vtex.render-runtime":
+  version "8.134.1"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.1/public/@types/vtex.render-runtime#da48779c477fbef1521010718b0f779ee1ae1ffe"
 
 w3c-hr-time@^1.0.1:
   version "1.0.2"

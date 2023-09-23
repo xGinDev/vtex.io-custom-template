@@ -1,6 +1,6 @@
 import React from 'react'
 
-const NameComponent = () => {
+const NameComponent: StorefrontFunctionComponent<any> = () => {
   return (
     <div>NameComponent</div>
   )
