@@ -1,10 +1,10 @@
 {
   "vendor": "blacksipqa",
-  "name": "event-cards",
-  "version": "0.0.1",
+  "name": "",
+  "version": "0.0.0",
   "title": "",
-  "defaultLocale": "es",
   "description": "",
+  "defaultLocale": "es",
   "builders": {
     "react": "3.x",
     "store": "0.x",
