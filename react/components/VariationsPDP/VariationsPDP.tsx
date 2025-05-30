@@ -2,11 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import { useProduct } from 'vtex.product-context'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import SwiperCore, { Thumbs, Navigation, Pagination } from 'swiper'
-import 'swiper/swiper-bundle.css'
-import 'swiper/swiper.css'
-import 'swiper/swiper-element.css'
-import 'swiper/swiper-bundle.min.css'
-import 'swiper/modules/thumbs/thumbs-element.min.css'
+import 'swiper/swiper-bundle.css' // ✅ Import único necesario
 
 const VariationsPDP: StorefrontFunctionComponent = () => {
   const productContext = useProduct()
@@ -15,6 +11,7 @@ const VariationsPDP: StorefrontFunctionComponent = () => {
   const messageInsertedRef = useRef<boolean>(false)
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperCore | null>(null)
   const [mainSwiper, setMainSwiper] = useState<SwiperCore | null>(null)
+  const [isMobile, setIsMobile] = useState<boolean>(false)
 
   const toggleMessage = (show: boolean) => {
     const container = document.querySelector('.vtex-store-components-3-x-skuSelectorContainer')
@@ -38,6 +35,17 @@ const VariationsPDP: StorefrontFunctionComponent = () => {
       messageInsertedRef.current = false
     }
   }
+
+  useEffect(() => {
+    setIsMobile(window.innerWidth < 768)
+
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768)
+    }
+
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
 
   useEffect(() => {
     if (prevContextRef.current === undefined) {
@@ -70,39 +78,40 @@ const VariationsPDP: StorefrontFunctionComponent = () => {
   }, [hasContextChanged])
 
   const images = productContext?.selectedItem?.images ?? []
-  const filteredImages = images.filter(image => image.imageLabel !== 'ColorPicker');
+  const filteredImages = images.filter(image => image.imageLabel !== 'ColorPicker')
 
-  console.log('images', images);
-  
+  if (!filteredImages.length) return null
 
   return (
     <div className='container-image-pdp-variation flex'>
-      <Swiper
-        spaceBetween={2}
-        slidesPerView={1}
-        modules={[Thumbs, Navigation, Pagination]}
-        thumbs={{ swiper: thumbsSwiper }}
-        className='mySwiper2'
-        onSwiper={setMainSwiper}
-        style={{ marginBottom: '10px' }}
-        navigation={true}
-        pagination={true}
-      >
-        {filteredImages.map((image) => (
-          <SwiperSlide key={image.imageId}>
-            <img src={image.imageUrl} alt={image.imageLabel} style={{ width: '100%' }} />
-          </SwiperSlide>
-        ))}
-      </Swiper>
+      {thumbsSwiper && (
+        <Swiper
+          spaceBetween={2}
+          slidesPerView={1}
+          modules={[Thumbs, Navigation, Pagination]}
+          thumbs={{ swiper: thumbsSwiper }}
+          className='mySwiper2'
+          onSwiper={setMainSwiper}
+          style={{ marginBottom: '10px' }}
+          navigation
+          pagination
+        >
+          {filteredImages.map((image) => (
+            <SwiperSlide key={image.imageId}>
+              <img src={image.imageUrl} alt={image.imageLabel} style={{ width: '100%' }} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      )}
 
       <Swiper
         onSwiper={setThumbsSwiper}
         spaceBetween={2}
-        slidesPerView={4}
-        watchSlidesProgress={true}
+        slidesPerView={isMobile ? 4 : 4}
+        watchSlidesProgress
         modules={[Thumbs]}
         className='mySwiper'
-        direction='vertical'
+        direction={isMobile ? 'horizontal' : 'vertical'} // ✅ dirección adaptable
       >
         {filteredImages.map((image) => (
           <SwiperSlide key={image.imageId}>
