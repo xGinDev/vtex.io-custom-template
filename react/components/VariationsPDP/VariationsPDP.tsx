@@ -100,7 +100,7 @@ const VariationsPDP: StorefrontFunctionComponent = () => {
           className='mySwiper2'
           onSwiper={setMainSwiper}
           style={{ marginBottom: '10px' }}
-          navigation
+          /* navigation */
           pagination
         >
           {filteredImages.map((image) => (
