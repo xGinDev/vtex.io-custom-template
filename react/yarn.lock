@@ -4952,9 +4952,9 @@ rsvp@^4.8.4:
   resolved "https://registry.npmjs.org/rsvp/-/rsvp-4.8.5.tgz"
   integrity sha512-nfMOlASu9OnRJo1mbEk2cz0D56a1MBNrJ7orjRZQG10XDyuvwksKbuXNp6qa+kbn839HwjwhBzhFmdsaEAfauA==
 
-"rubbermaidmx.variations-pdp@https://sdrmyc147--rubbermaidmx.myvtex.com/_v/private/typings/linked/v1/rubbermaidmx.variations-pdp@0.0.0+build1747787910/public/@types/rubbermaidmx.variations-pdp":
-  version "0.0.0"
-  resolved "https://sdrmyc147--rubbermaidmx.myvtex.com/_v/private/typings/linked/v1/rubbermaidmx.variations-pdp@0.0.0+build1747787910/public/@types/rubbermaidmx.variations-pdp#212ff14838468efcbccb45fc72e83371aee6ac10"
+"rubbermaidmx.variations-pdp@https://sdrmyc159--rubbermaidmx.myvtex.com/_v/private/typings/linked/v1/rubbermaidmx.variations-pdp@0.0.1+build1748970803/public/@types/rubbermaidmx.variations-pdp":
+  version "0.0.1"
+  resolved "https://sdrmyc159--rubbermaidmx.myvtex.com/_v/private/typings/linked/v1/rubbermaidmx.variations-pdp@0.0.1+build1748970803/public/@types/rubbermaidmx.variations-pdp#8b997ab690e75c2c08ca95e994b20b5642f7094b"
 
 safe-buffer@^5.0.1, safe-buffer@^5.1.2, safe-buffer@~5.2.0:
   version "5.2.1"

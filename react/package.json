@@ -49,7 +49,7 @@
     "apollo-cache-inmemory": "^1.4.3",
     "apollo-client": "^2.5.1",
     "babel-eslint": "^10.1.0",
-    "rubbermaidmx.variations-pdp": "https://sdrmyc147--rubbermaidmx.myvtex.com/_v/private/typings/linked/v1/rubbermaidmx.variations-pdp@0.0.0+build1747787910/public/@types/rubbermaidmx.variations-pdp",
+    "rubbermaidmx.variations-pdp": "https://sdrmyc159--rubbermaidmx.myvtex.com/_v/private/typings/linked/v1/rubbermaidmx.variations-pdp@0.0.1+build1748970803/public/@types/rubbermaidmx.variations-pdp",
     "typescript": "3.9.7",
     "vtex.css-handles": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles",
     "vtex.product-context": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.10.1/public/@types/vtex.product-context",

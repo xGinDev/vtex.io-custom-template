@@ -2,9 +2,16 @@ import React, { useEffect, useRef, useState } from 'react'
 import { useProduct } from 'vtex.product-context'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import SwiperCore, { Thumbs, Navigation, Pagination } from 'swiper'
-import 'swiper/swiper-bundle.css' // ✅ Import único necesario
+import { useCssHandles } from 'vtex.css-handles';
+import './estilos.css';
+/* import 'swiper/swiper-bundle.css' */
+
+const CSS_HANDLES = [
+  'container-image-pdp-variation'
+] as const;
 
 const VariationsPDP: StorefrontFunctionComponent = () => {
+  const handles = useCssHandles(CSS_HANDLES);
   const productContext = useProduct()
   const prevContextRef = useRef<typeof productContext>()
   const [hasContextChanged, setHasContextChanged] = useState<boolean | null>(null)
@@ -83,7 +90,7 @@ const VariationsPDP: StorefrontFunctionComponent = () => {
   if (!filteredImages.length) return null
 
   return (
-    <div className='container-image-pdp-variation flex'>
+    <div className={`${handles['container-image-pdp-variation']} flex`}>
       {thumbsSwiper && (
         <Swiper
           spaceBetween={2}
