@@ -3,8 +3,8 @@ import { useProduct } from 'vtex.product-context'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import SwiperCore, { Thumbs, Navigation, Pagination } from 'swiper'
 import { useCssHandles } from 'vtex.css-handles';
+import 'swiper/swiper-bundle.css'
 import './estilos.css';
-/* import 'swiper/swiper-bundle.css' */
 
 const CSS_HANDLES = [
   'container-image-pdp-variation'
