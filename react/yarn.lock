@@ -1722,6 +1722,10 @@ ajv@^6.12.3:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
+"alfagresalfa.chat@https://sa486--alfagresalfa.myvtex.com/_v/private/typings/linked/v1/alfagresalfa.chat@0.0.0+build1749247319/public/@types/alfagresalfa.chat":
+  version "0.0.0"
+  resolved "https://sa486--alfagresalfa.myvtex.com/_v/private/typings/linked/v1/alfagresalfa.chat@0.0.0+build1749247319/public/@types/alfagresalfa.chat#cc76c14d49c15caa84a3f65da8163d60c6bbd62c"
+
 ansi-escapes@^4.2.1:
   version "4.3.2"
   resolved "https://registry.npmjs.org/ansi-escapes/-/ansi-escapes-4.3.2.tgz"
@@ -5628,9 +5632,9 @@ verror@1.10.0:
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles"
   integrity sha512-QHSMD4rq2nKtJ1f1tH/RPqj4cYu2gKdghYHBdJSYzGh0e7AGD8ByCPzSdHyVnlO2OIRKAAqPHI05baN6neLYFg==
 
-"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.1/public/@types/vtex.render-runtime":
-  version "8.134.1"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.1/public/@types/vtex.render-runtime#da48779c477fbef1521010718b0f779ee1ae1ffe"
+"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.136.1/public/@types/vtex.render-runtime":
+  version "8.136.1"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.136.1/public/@types/vtex.render-runtime#f163acbdb0fcc9be2065a34eb4fc797093f6d0ce"
 
 w3c-hr-time@^1.0.1:
   version "1.0.2"

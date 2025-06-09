@@ -1,9 +1,9 @@
 {
-  "vendor": "blacksipqa",
-  "name": "",
+  "vendor": "alfagresalfa",
+  "name": "chat",
   "version": "0.0.0",
-  "title": "",
-  "description": "",
+  "title": "Chat",
+  "description": "Chat",
   "defaultLocale": "es",
   "builders": {
     "react": "3.x",
