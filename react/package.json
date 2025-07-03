@@ -45,13 +45,14 @@
     "@types/react-dom": "^16.9.0",
     "@vtex/test-tools": "^3.1.0",
     "@vtex/tsconfig": "^0.3.0",
-    "alfagresalfa.chat": "https://sa486--alfagresalfa.myvtex.com/_v/private/typings/linked/v1/alfagresalfa.chat@0.0.0+build1749247319/public/@types/alfagresalfa.chat",
     "apollo-cache-inmemory": "^1.4.3",
     "apollo-client": "^2.5.1",
     "babel-eslint": "^10.1.0",
+    "rubbermaidmx.cookies": "https://sdrmyc156--rubbermaidmx.myvtex.com/_v/private/typings/linked/v1/rubbermaidmx.cookies@0.0.0+build1751039296/public/@types/rubbermaidmx.cookies",
     "typescript": "3.9.7",
     "vtex.css-handles": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles",
-    "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.136.1/public/@types/vtex.render-runtime"
+    "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.136.1/public/@types/vtex.render-runtime",
+    "vtex.store-drawer": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-drawer@0.18.1/public/@types/vtex.store-drawer"
   },
   "vtexTestTools": {
     "defaultLocale": "en"

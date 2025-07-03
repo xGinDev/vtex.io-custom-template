@@ -1722,10 +1722,6 @@ ajv@^6.12.3:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-"alfagresalfa.chat@https://sa486--alfagresalfa.myvtex.com/_v/private/typings/linked/v1/alfagresalfa.chat@0.0.0+build1749247319/public/@types/alfagresalfa.chat":
-  version "0.0.0"
-  resolved "https://sa486--alfagresalfa.myvtex.com/_v/private/typings/linked/v1/alfagresalfa.chat@0.0.0+build1749247319/public/@types/alfagresalfa.chat#cc76c14d49c15caa84a3f65da8163d60c6bbd62c"
-
 ansi-escapes@^4.2.1:
   version "4.3.2"
   resolved "https://registry.npmjs.org/ansi-escapes/-/ansi-escapes-4.3.2.tgz"
@@ -4956,6 +4952,10 @@ rsvp@^4.8.4:
   resolved "https://registry.npmjs.org/rsvp/-/rsvp-4.8.5.tgz"
   integrity sha512-nfMOlASu9OnRJo1mbEk2cz0D56a1MBNrJ7orjRZQG10XDyuvwksKbuXNp6qa+kbn839HwjwhBzhFmdsaEAfauA==
 
+"rubbermaidmx.cookies@https://sdrmyc156--rubbermaidmx.myvtex.com/_v/private/typings/linked/v1/rubbermaidmx.cookies@0.0.0+build1751039296/public/@types/rubbermaidmx.cookies":
+  version "0.0.0"
+  resolved "https://sdrmyc156--rubbermaidmx.myvtex.com/_v/private/typings/linked/v1/rubbermaidmx.cookies@0.0.0+build1751039296/public/@types/rubbermaidmx.cookies#bc531e1f34992199809b16a9ed33e22ad20f8d84"
+
 safe-buffer@^5.0.1, safe-buffer@^5.1.2, safe-buffer@~5.2.0:
   version "5.2.1"
   resolved "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz"
@@ -5635,6 +5635,10 @@ verror@1.10.0:
 "vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.136.1/public/@types/vtex.render-runtime":
   version "8.136.1"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.136.1/public/@types/vtex.render-runtime#f163acbdb0fcc9be2065a34eb4fc797093f6d0ce"
+
+"vtex.store-drawer@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-drawer@0.18.1/public/@types/vtex.store-drawer":
+  version "0.18.1"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-drawer@0.18.1/public/@types/vtex.store-drawer#6a9c41b35d9f992c7683f2d275c0817271619075"
 
 w3c-hr-time@^1.0.1:
   version "1.0.2"
