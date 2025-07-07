@@ -89,6 +89,9 @@ const VariationsPDP: StorefrontFunctionComponent = () => {
 
   if (!filteredImages.length) return null
 
+
+  console.log('isMobile:', isMobile, 'slidesPerView should be:', isMobile ? 4 : 4);
+
   return (
     <div className={`${handles['container-image-pdp-variation']} flex`}>
       {thumbsSwiper && (
@@ -100,7 +103,7 @@ const VariationsPDP: StorefrontFunctionComponent = () => {
           className='mySwiper2'
           onSwiper={setMainSwiper}
           style={{ marginBottom: '10px' }}
-          /* navigation */
+          navigation
           pagination
         >
           {filteredImages.map((image) => (
