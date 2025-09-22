@@ -1,22 +1,17 @@
 {
-  "vendor": "rubbermaidmx",
-  "name": "cookies",
+  "vendor": "vendor",
+  "name": "name",
   "version": "0.0.0",
-  "title": "Cookies",
-  "description": "Cookies",
+  "title": "title",
+  "description": "description",
   "defaultLocale": "es",
   "builders": {
     "react": "3.x",
-    "store": "0.x",
-    "assets": "0.x"
+    "store": "0.x"
   },
   "mustUpdateAt": "2021-01-12",
-  "scripts": {
-    "prereleasy": "bash lint.sh"
-  },
   "dependencies": {
-    "vtex.css-handles": "0.x",
-    "vtex.store-drawer": "0.x"
+    "vtex.css-handles": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
